@@ -17,7 +17,7 @@ var NITUIFramework = {
 	createTextBox: function(){
 		var newTextBox = document.createElement("input");
 		newTextBox.setAttribute('type', 'text');
-		
+				
 		return newTextBox;
 	},
 	createButton: function(text){
